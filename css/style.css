@@ -1,0 +1,336 @@
+/* Font Link Start */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* Font Link End */
+
+/* Common css start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li,
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+li,
+ul,
+img,
+i {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --fontStyle: "Poppins", sans-serif;
+  --primaryTextColor: #000000;
+  --btnColor: #2639ed;
+  --secondaryColor: #f4f9ff;
+}
+/* Common css End */
+
+/* Nav part css Start */
+#nav-part {
+  padding: 42px 0;
+}
+
+#nav-part .nav-item a {
+  color: var(--primaryTextColor);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+  padding-right: 45px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#nav-part .nav-item a:hover {
+  color: var(--primaryTextColor);
+  font-weight: 600;
+}
+/* Nav part css End */
+
+@media only screen and (max-width: 960px) {
+  .nav-item {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-top: 20px;
+    background-color: var(--secondaryColor);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+
+/* Hero part css start */
+#hero-part .left-part h1 {
+  color: var(--primaryTextColor);
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+#hero-part .left-part p {
+  color: #565656;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-bottom: 50px;
+}
+
+button {
+  padding: 16px 50px;
+  font-size: 18px;
+  font-family: var(--fontStyle);
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: var(--btnColor);
+  box-shadow: 0px 15px 20px #2e5fe566;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+.elips-1 {
+  background-color: #dae9ff;
+  width: 129px;
+  height: 129px;
+  border-radius: 70px;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  -ms-border-radius: 70px;
+  -o-border-radius: 70px;
+}
+
+.elips-2 {
+  width: 178px;
+  height: 178px;
+  border-radius: 0px 0px 100px 0px;
+  background: #fff5db;
+  margin-top: 290px;
+  margin-left: 442px;
+}
+
+/* Hero part css End */
+
+/* Cleint part css start */
+#client-part {
+  padding: 180px 0;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.company .logo-4 {
+  padding-top: 20px;
+}
+/* Cleint part css End */
+
+/* Help part css start */
+
+.left-text-part h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.left-text-part p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #565656;
+  line-height: 25px;
+}
+
+.help-right-part .box {
+  border-radius: 40px;
+  border: 1px solid #f2f2f2;
+  background: #fff;
+  padding: 57px 20px;
+  width: 308px;
+  height: 379px;
+  flex-shrink: 0;
+  text-align: center;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+svg {
+  border-radius: 20px;
+  background: transparent;
+  padding: 15px 8px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#box-1:hover {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#box-2:hover {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#box-3:hover {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#box-4:hover {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#box-1:hover svg {
+  border-radius: 20px;
+  background: #f1f7ff;
+  padding: 15px 8px;
+}
+
+#box-2:hover svg {
+  border-radius: 20px;
+  background: #fff7e3;
+
+  padding: 15px 8px;
+}
+
+#box-3:hover svg {
+  border-radius: 20px;
+  background: #fff2f8;
+  padding: 15px 8px;
+}
+
+#box-4:hover svg {
+  border-radius: 20px;
+  background: #deffee;
+  padding: 15px 8px;
+}
+
+.help-right-part {
+  padding-left: 90px;
+  row-gap: 30px;
+  column-gap: 34px;
+}
+
+.help-right-part .box-item h1 {
+  font-size: 24px;
+  padding: 0 35px;
+}
+
+.help-right-part .box-item p {
+  font-size: 16px;
+  color: #757575;
+}
+
+/* Help part css End */
+
+/* Digital part css start */
+#digital-part {
+  padding: 145px 0;
+}
+
+.digital-left .Video-banner img {
+  position: absolute;
+}
+
+.video-btn .button {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 20px 27px;
+  border-radius: 100%;
+  background: var(--btnColor);
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: #c1c6f6b2 0px 0px 0px 0px;
+  animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running
+    pulse;
+  align-items: center;
+  border: 0;
+  position: relative;
+  top: 177px;
+  left: 60%;
+}
+
+.video-btn .button:is(:hover, :focus) {
+  transform: scale(1.2);
+}
+
+@keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 45px rgba(29, 106, 221, 0.13);
+  }
+}
+
+.video-btn i {
+  font-size: 25px;
+}
+
+.digital-text {
+  padding-top: 100px;
+  padding-left: 167px;
+}
+
+.digital-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.digital-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #565656;
+  line-height: 25px;
+}
+
+/* Digital part css End */
